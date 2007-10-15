@@ -1,0 +1,70 @@
+perl-Text-Iconv
+-------------------------------------------
+Perl interface to iconv() codeset conversion function
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libiconv2-1.11-1
+  perl-5.8.8-4
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-5.8.8-4
+
+Canonical homepage:
+  http://search.cpan.org/~mpiotr/Text-Iconv/
+
+Canonical download:
+  http://www.cpan.org/authors/id/M/MP/MPIOTR/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Text-Iconv-1.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport./perl-Text-Iconv-1.6-X.cygport all
+
+This will create:
+  /usr/src/perl-Text-Iconv-1.6-X-src.tar.bz2
+  /usr/src/perl-Text-Iconv-1.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Text-Iconv.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Text/Iconv.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Text/Iconv/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Text/Iconv/Iconv.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Text/Iconv/Iconv.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Text/Iconv/autosplit.ix
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Text/Iconv/libIconv.dll.a
+  /usr/share/doc/Cygwin/perl-Text-Iconv-1.6.README
+  /usr/share/doc/perl-Text-Iconv-1.6/Changes
+  /usr/share/doc/perl-Text-Iconv-1.6/README
+  /usr/share/man/man3/Text.Iconv.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Text-Iconv.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.6-1 -----
+Version bump; built with cygport.
+
+----- version 1.4-2 -----
+Rebuilt for perl-5.8.6.
+
+----- version 1.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
