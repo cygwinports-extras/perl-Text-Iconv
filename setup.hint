@@ -1,4 +1,4 @@
 category: Perl
-requires: cygwin libiconv2 perl
+requires: libiconv2 perl
 sdesc: "Perl binding for libiconv"
 ldesc: "Perl interface to iconv() codeset conversion function"
